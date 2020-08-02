@@ -1,4 +1,136 @@
-<h1>Este es un sitio web con Github Pages</h1>
-<p>Y fue creado con amor para el Curso de Git y Github de Platzi</p>
-<p><img src="https://i.imgur.com/PfA0M2o.gif" /></p>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Carlos Del Rio</title>
+  <link rel="icon" type="image/png" href="images/dragon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)"/> -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <figure class="logo">
+        <img src="images/dragon.png" width="50" alt="Logo de JCDRE">
+      </figure>
+      <nav class="menu">
+        <ol>
+          <li>
+            <a class="link" href="./portafolio/index.html">Portafolio</a>
+          </li>
+          <li>
+            <a class="link" href="#experiencia">Experiencia</a>
+          </li>
+          <li>
+            <a class="link" href="#contacto">Trabajemos juntos</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <h1>Hola, soy <strong>Juan Carlos Del Rio</strong> <br>estudiante de  <strong>Desarrollo Web</strong> <br>con pasi&oacute;n por aprender</h1>
+      <img class="hero-image" src="images/Nenas.jpg" height="300" alt="imagen paiseaje de sitio"/>
+    </div>
+  </section>
+  <section id="portafolio" class="portfolio">
+    <div class="container">
+      <h2>Portafolio (Proyectos Destacados)</h2>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">Platzi Video</h3>
+          <h6 class="project-course">React Native / React</h6>
+          <p class="project-date"><small><strong>Fecha: </strong> 01/07/2018</small></p>
+          <p class="project-url"><small><strong>Puedes verlo en: </strong> www.platzi.com/native</small></p>
+          <p class="project-description">Platzi video fue el resultado de 3 meses de trabajo para
+            enseñar el funcionamiento de React y React Native.
+            Desde crear una vista detalle, hasta patrones avanzados.
+          </p>
+        </div>
+        <figure class="project-imageContainer">
+          <img class="project-image" src="images/Work03.jpg" width="280"  alt="SK"/>
+        </figure>
+      </article>
+    </div>
+  </section>
+  
+  <div class="container">
+    <h2 class="event-list-title">M&aacute;s sobre mi experiencia</h2>
+  </div>
+  <section id="eventos" class="event-list">
+    <div class="container">
+      <article class="event">
+        <figure class="event-imageContainer">
+          <video class="html-video" src="/video/Alejandra.mp4" width="1920" height="1080" controls></video>
+          <!-- <img class="event-image" src="images/Work02.jpg" width="480"/> -->
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">Platziconf Mexico 2018</h3>
+          <p class="event-description">El evento m&aacute;s grande sobre gente que quiere aprender m&aacute;s de internet.</p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=gfEGbADn3oM" target="_blank">Ver Pl&aacute;tica</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/Work02.jpg" width="480" />
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">Platziconf Mexico 2018</h3>
+          <p class="event-description">El evento m&aacute;s grande sobre gente que quiere aprender m&aacute;s de internet.</p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=gfEGbADn3oM" target="_blank">Ver Pl&aacute;tica</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/Work02.jpg" width="480"/>
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">Platziconf Mexico 2018</h3>
+          <p class="event-description">El evento m&aacute;s grande sobre gente que quiere aprender m&aacute;s de internet.</p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=gfEGbADn3oM" target="_blank">Ver Pl&aacute;tica</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="images/Work02.jpg" width="480"/>
+        </figure>
+        <div class="event-detail">
+          <h3 class="event-title">Platziconf Mexico 2018</h3>
+          <p class="event-description">El evento m&aacute;s grande sobre gente que quiere aprender m&aacute;s de internet.</p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=gfEGbADn3oM" target="_blank">Ver Pl&aacute;tica</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section id="contacto" class="contact">
+    <div class="container">
+      <form action="/suscripcion/" class="form-email">
+        <h3>Creamos algo juntos?</h3>
+        <input type="text" placeholder="D&eacute;jame tu email" id="email" > 
+        <button>Enviar</button>
+      </form>
+      <div class="social">
+        <a href="https://twitter.com/jcdelrioe" class="social-link twitter"></a>
+        <a href="https://facebook.com" class="social-link facebook"></a>
+        <a href="https://github.com/jcdelrioe" class="social-link github"></a>
+        <a href="https://instagram.com/jcdelrioe" class="social-link instagram"></a>
+      </div>
+    </div>
+  </section> -->
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <p>Curso de Desarrollo Web online 2018
+          <img src="./images/dragon.png" width="40px" alt="JuanCatzi">
+        </p>
+      </div>
+      <div>
+        <p>Designed with 💓 by JuanCa</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
