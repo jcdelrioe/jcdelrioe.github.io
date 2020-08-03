@@ -350,7 +350,13 @@ event img{
   }
 }
 @media screen and (max-width: 1120px){
- .hero{
+  .event-list-title{
+    margin-left: 0;
+  }
+ .portfolio{
+   padding: 0;
+ }
+  .hero{
     height: auto;
     position: relative;
     overflow: hidden;
@@ -371,6 +377,10 @@ event img{
   }
 }
 @media screen and (max-width: 767px){
+  h2{
+    font-size: 1.2em;
+    margin: .5em 0;
+  }
   .burger-button{
     display: block;
   }
@@ -442,7 +452,7 @@ event img{
   font-size: 1em;
  }
  .project-description{
-  font-size: 0.8em;
+  font-size: 1em;
  }
  .event{
    width: auto;
@@ -468,7 +478,7 @@ event img{
     font-size: 1.5em;
   }
   .project-details{
-    font-size: 12px;
+    font-size: 14px;
   }
   .contact{
     height: auto;
@@ -486,6 +496,11 @@ event img{
     display: block;
     text-align: center;
     border:  1px solid transparent;
+  }
+  .social-link{
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
   }
 }
 @media screen and (max-width: 320px){
